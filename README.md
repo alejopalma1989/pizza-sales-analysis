@@ -28,5 +28,26 @@ SQL (BigQuery) · Power BI · GitHub
 🚧 En curso – exploración inicial en SQL.
 
 ## Conclusiones
-_Pendiente._
+
+### 1. Demanda y personal *(borrador; pendiente el análisis día × hora)*
+- **Días fuertes: jueves a sábado.** Viernes 70,8 pedidos/día, jueves 62,3, sábado 60,7.
+  **Domingo, el más flojo** (50,5).
+- **Horario operativo real: 11:00–23:00.**
+- **Dos picos diarios:** comida de 12:00 a 14:00 (≈7 pedidos/hora de media) y tarde
+  de 17:00 a 19:00 (≈6,5–6,7). Valle entre las 14:00 y las 16:00 (≈4,1).
+- **Recomendación (criterio operativo):** reforzar plantilla de jueves a sábado en ambos
+  picos, con entrada 30–60 min antes para preparación; dotación mínima el domingo.
+
+### 4. Estacionalidad
+- **Demanda estable durante el año:** entre 56 pedidos/día (diciembre) y 62,4 (julio),
+  una variación de ≈10 %.
+- Comparar totales mensuales lleva a error: por total, septiembre parecía el mes más flojo,
+  pero por sus días de cierre. En media diaria, el más flojo es diciembre.
+- **Implicación:** no se justifican grandes campañas estacionales; la variación relevante
+  está dentro de la semana y del día (ver conclusión 1).
+
+## Limitaciones
+- Sin datos de costes: el análisis de carta se basa en ingresos, no en margen.
+- En el cruce día × hora, la media de las horas de menor actividad puede estar inflada
+  (solo cuenta los días con al menos un pedido en esa franja).
 Ver el [registro de hipótesis](docs/hipotesis.md) para el detalle de las comprobaciones.
