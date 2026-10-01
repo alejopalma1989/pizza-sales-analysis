@@ -1,4 +1,4 @@
-##Plato's Pizza – Análisis de ventas 2015##
+## Plato's Pizza – Análisis de ventas 2015
 
 Análisis de un año de ventas de una pizzería (≈21.000 pedidos) desde la perspectiva
 de un General Manager: decisiones de personal, carta, ticket medio y estacionalidad.
