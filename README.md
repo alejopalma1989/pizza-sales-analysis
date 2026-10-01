@@ -27,3 +27,4 @@ SQL (BigQuery) · Power BI · GitHub
 
 ## Conclusiones
 _Pendiente._
+Ver el [registro de hipótesis](docs/hipotesis.md) para el detalle de las comprobaciones.
