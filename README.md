@@ -16,11 +16,13 @@ SQL (BigQuery) · Power BI · GitHub
 [Maven Analytics – Pizza Place Sales](https://mavenanalytics.io/data-playground/pizza-place-sales)
 4 tablas: orders, order_details, pizzas, pizza_types.
 ### Validación de datos
-- 4 tablas cargadas en BigQuery; esquemas revisados tras la carga.
+- 4 tablas cargadas en BigQuery; tipos de columna revisados tras la carga.
+- Estructura: `orders` = 1 fila por pedido (≈21.000); `order_details` = 1 fila por línea de pedido (≈48.000), relación uno a muchos.
 - Sin valores nulos en `order_details`.
-- Integridad referencial: todas las líneas de pedido tienen una pizza válida en la carta (0 huérfanas).
-- Periodo: año 2015, 358 días con ventas (7 días sin actividad: 24 y 25 Sept , 5, 12, 19 y 26 Oct, 25 Diciembre ).
-- Moneda: USD.
+- Integridad referencial: 0 líneas de pedido sin pizza válida en la carta.
+- Periodo: año 2015 completo, 358 días con ventas (7 días sin actividad).
+- Moneda: USD (pizzería ficticia de EE. UU.).
+- Pedidos antes de las 11:00 residuales (9 en todo el año); se consideran fuera del horario operativo.
 
 ## Estado
 🚧 En curso – exploración inicial en SQL.
