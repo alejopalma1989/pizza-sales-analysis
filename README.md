@@ -29,7 +29,7 @@ SQL (BigQuery) · Power BI · GitHub
 
 ## Conclusiones
 
-### 1. Demanda y personal *(borrador; pendiente el análisis día × hora)*
+### 1. Demanda y personal 
 - **Días fuertes: jueves a sábado.** Viernes 70,8 pedidos/día, jueves 62,3, sábado 60,7.
   **Domingo, el más flojo** (50,5).
 - **Horario operativo real: 11:00–23:00.**
@@ -37,6 +37,43 @@ SQL (BigQuery) · Power BI · GitHub
   de 17:00 a 19:00 (≈6,5–6,7). Valle entre las 14:00 y las 16:00 (≈4,1).
 - **Recomendación (criterio operativo):** reforzar plantilla de jueves a sábado en ambos
   picos, con entrada 30–60 min antes para preparación; dotación mínima el domingo.
+  
+### 2.Pizzas son estrellas y cuáles sobran en la carta
+
+
+> **Limitación:** el dataset no incluye costes, así que el análisis se basa en unidades vendidas e ingresos, no en margen.
+
+
+### Pizzas estrella
+La venta está muy repartida: en unidades, ninguna pizza llega al 5 % del total.
+
+
+**Top 5 por unidades:**
+- classic_dlx: 2.453 (4,95 %)
+- bbq_ckn: 2.432 (4,91 %)
+- hawaiian: 2.422 (4,89 %)
+- pepperoni: 2.418 (4,88 %)
+- thai_ckn: 2.371 (4,78 %)
+
+
+**Por ingresos**, lidera thai_ckn (5,31 %), seguida de bbq_ckn (5,23 %) y cali_ckn (5,01 %), que en unidades queda 6ª.
+
+
+### Candidatas a salir: mediterraneo y spinach_supr
+Las 10 pizzas con menos ventas son las mismas tanto en unidades como en ingresos. Dentro de ese grupo, dos destacan en ambas métricas:
+- **mediterraneo:** 2ª con menos unidades (1,88 %) y 4ª con menos ingresos (1,88 %).
+- **spinach_supr:** 4ª con menos unidades (1,92 %) y 3ª con menos ingresos (1,87 %).
+
+
+Además, son las **únicas dos pizzas que usan aceitunas kalamata**. Retirarlas juntas permitiría eliminar ese ingrediente de las compras. Retirar solo una no generaría ese ahorro.
+
+
+### Caso especial: brie_carre
+Es la última en unidades (0,99 %) y en ingresos (1,42 %), pero **solo se ofrece en talla S** y a 23,65 $, casi el doble que el resto de pizzas S (9,75–12,75 $). Aun así, **dentro de las pizzas S ocupa el 9º puesto en ventas**, por encima de la media de su talla.
+
+
+**Recomendación:** mantenerla y probar a ofrecerla en talla M durante un periodo para medir el impacto en unidades e ingresos.
+
 
 ### 4. Estacionalidad
 - **Demanda estable durante el año:** entre 56 pedidos/día (diciembre) y 62,4 (julio),
