@@ -69,7 +69,7 @@ Además, son las **únicas dos pizzas que usan aceitunas kalamata**. Retirarlas 
 
 
 ### Caso especial: brie_carre
-Es la última en unidades (0,99 %) y en ingresos (1,42 %), pero **solo se ofrece en talla S** y a 23,65 $, casi el doble que el resto de pizzas S (9,75–12,75 $). Aun así, **dentro de las pizzas S ocupa el 9º puesto en ventas**, por encima de la media de su talla.
+Es la última en unidades (0,99 %) y en ingresos (1,42 %), pero **solo se ofrece en talla S** y a 23,65 \$, casi el doble que el resto de pizzas S (9,75–12,75 \$). Aun así, **dentro de las pizzas S ocupa el 9º puesto en ventas**, por encima de la media de su talla.
 
 
 **Recomendación:** mantenerla y probar a ofrecerla en talla M durante un periodo para medir el impacto en unidades e ingresos.
