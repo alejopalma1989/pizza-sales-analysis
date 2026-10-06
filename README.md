@@ -57,8 +57,20 @@ Es la última en unidades (0,99 %) y en ingresos (1,42 %), pero **solo se ofrece
 
 **Recomendación:** mantenerla y probar a ofrecerla en talla M durante un periodo para medir el impacto en unidades e ingresos.
 
-### 3. ¿Cuál es el ticket medio y dónde hay margen de upselling?
-_En curso._
+### Pregunta 3: ¿Cuál es el ticket medio y dónde hay margen de upselling?
+
+El ticket medio global es de **$38,3** y apenas varía entre días: hay una diferencia de alrededor del 3% entre el día con menor ticket medio (domingo, $37,81) y el día con mayor ticket medio (sábado, $39,01).
+
+Durante el día, los datos muestran una diferencia de ~15–20% en el ticket medio, que es mayor durante las comidas ($40–44 entre las 12 y las 14 h) que en el resto del día, incluida la cena (~$36,5). Esto descartó mi hipótesis inicial de que el ticket medio sería más alto en las cenas, momento en el que familias y amigos se reúnen.
+
+El siguiente paso fue averiguar por qué el ticket medio era más alto en las comidas. Las hipótesis eran dos: o se piden más pizzas por pedido, o se piden pizzas de mayor precio.
+
+- **Precio por pizza:** estable a lo largo del día (en torno a $16,5).
+- **Pizzas por pedido:** varía según el turno. En las comidas alcanza 2,69 pizzas por pedido a las 12 h y 2,45 a las 14 h; en el resto del día ronda las 2,2.
+
+Por tanto, **la diferencia de ticket se explica por el número de pizzas por pedido, no por el precio de las pizzas.**
+
+**Margen de upselling:** está en las cenas. Para aprovecharlo, habría que centrarse en aumentar el número de pizzas por pedido, ya que el precio por pizza es estable. Pasar de 2,2 a 2,4 pizzas por pedido elevaría el ticket medio de la cena en unos $3.
 
 ### 4. ¿Hay estacionalidad que justifique acciones comerciales?
 - **Demanda estable durante el año:** entre 56 pedidos/día (diciembre) y 62,4 (julio), una variación de ≈10 %.
