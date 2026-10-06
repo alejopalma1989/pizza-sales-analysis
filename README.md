@@ -61,7 +61,7 @@ Es la última en unidades (0,99 %) y en ingresos (1,42 %), pero **solo se ofrece
 
 El ticket medio global es de **$38,3** y apenas varía entre días: hay una diferencia de alrededor del 3% entre el día con menor ticket medio (domingo, $37,81) y el día con mayor ticket medio (sábado, $39,01).
 
-Durante el día, los datos muestran una diferencia de ~15–20% en el ticket medio, que es mayor durante las comidas ($40–44 entre las 12 y las 14 h) que en el resto del día, incluida la cena (~$36,5). Esto descartó mi hipótesis inicial de que el ticket medio sería más alto en las cenas, momento en el que familias y amigos se reúnen.
+Durante el día, los datos muestran una diferencia de \~15–20% en el ticket medio, que es mayor durante las comidas ($40–44 entre las 12 y las 14 h) que en el resto del día, incluida la cena (\~$36,5). Esto descartó mi hipótesis inicial de que el ticket medio sería más alto en las cenas, momento en el que familias y amigos se reúnen.
 
 El siguiente paso fue averiguar por qué el ticket medio era más alto en las comidas. Las hipótesis eran dos: o se piden más pizzas por pedido, o se piden pizzas de mayor precio.
 
