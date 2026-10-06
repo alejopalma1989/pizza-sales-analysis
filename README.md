@@ -70,7 +70,7 @@ El siguiente paso fue averiguar por qué el ticket medio era más alto en las co
 
 Por tanto, **la diferencia de ticket se explica por el número de pizzas por pedido, no por el precio de las pizzas.**
 
-**Margen de upselling:** está en las cenas. Para aprovecharlo, habría que centrarse en aumentar el número de pizzas por pedido, ya que el precio por pizza es estable. Pasar de 2,2 a 2,4 pizzas por pedido elevaría el ticket medio de la cena en unos $3.
+**Margen de upselling:** está en las cenas. Para aprovecharlo, habría que centrarse en aumentar el número de pizzas por pedido, ya que el precio por pizza es estable. Pasar de 2,2 a 2,4 pizzas por pedido elevaría el ticket medio de la cena en unos $3 (si se mantiene el precio medio por pizza).
 
 ### 4. ¿Hay estacionalidad que justifique acciones comerciales?
 - **Demanda estable durante el año:** entre 56 pedidos/día (diciembre) y 62,4 (julio), una variación de ≈10 %.
