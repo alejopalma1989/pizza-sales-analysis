@@ -57,6 +57,11 @@ Es la última en unidades (0,99 %) y en ingresos (1,42 %), pero **solo se ofrece
 
 **Recomendación:** mantenerla y probar a ofrecerla en talla M durante un periodo para medir el impacto en unidades e ingresos. Si tras 3 meses la Brie Carre (sumando S y M) no alcanza las 80 unidades al mes, el ritmo de venta del grupo más bajo, se retira de la carta.
 
+### Hallazgo del dashboard: el precio dentro de cada grupo
+
+En la dispersión, las pizzas forman cuatro grupos según las unidades vendidas. Dentro de cada grupo, las que ingresan menos son las más baratas: Green Garden, Pepperoni Mushroom and Peppers, Big Meat, Pepperoni y Hawaiian tienen un precio medio de 12–14 $, frente a 16–18 $ de sus vecinas. Venden lo mismo, pero cada unidad ingresa menos.
+Excepción: la Big Meat no es barata por carta, sino porque solo se ha vendido en talla S, aunque M y L figuran en la carta. Sin datos de costes no se puede saber si estas pizzas son menos rentables.
+
 ### Pregunta 3: ¿Cuál es el ticket medio y dónde hay margen de upselling?
 
 El ticket medio global es de **$38,3** y apenas varía entre días: hay una diferencia de alrededor del 3% entre el día con menor ticket medio (domingo, $37,81) y el día con mayor ticket medio (sábado, $39,01).
