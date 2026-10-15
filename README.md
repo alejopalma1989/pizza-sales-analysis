@@ -41,7 +41,7 @@ En SQL se analizaron el día y la hora por separado. Al cruzarlos en una matriz 
 * De lunes a jueves, el pico de tarde se concentra entre las 17 y las 19, y la demanda cae desde las 19. El jueves a las 17 llega a 7,2.
 * El viernes y el sábado, el pico de tarde alcanza su máximo a las 18 (7,7 y 7,5) y se mantiene alto hasta las 21.
 
-![Matriz de pedidos de media por hora, por día de la semana](docs/matriz_dia_hora.png)
+![Matriz de pedidos de media por hora, por día de la semana](matriz_dia_hora.png)
 
 **Hipótesis:** el pico de comidas de lunes a viernes se explicaría por clientela de oficinas de la zona; la tarde-noche larga de viernes y sábado, por grupos de familia y amigos que se reúnen para socializar.
 
