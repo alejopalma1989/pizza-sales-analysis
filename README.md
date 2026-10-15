@@ -121,7 +121,7 @@ En la dispersión, las pizzas forman cuatro grupos según las unidades vendidas.
 
 **Excepción:** la Big Meat no es barata por carta, sino porque solo se ha vendido en talla S, aunque M y L figuran en la carta. Sin datos de costes no se puede saber si estas pizzas son menos rentables.
 
-![Dispersión de unidades vendidas frente a ingresos por pizza](menu_dispersion.png)
+![Dispersión de unidades vendidas frente a ingresos por pizza](menu_dispersion1.png)
 
 ### 3. ¿Cuál es el ticket medio y dónde hay margen de upselling?
 
