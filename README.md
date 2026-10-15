@@ -135,7 +135,7 @@ Durante el día, el ticket medio llega a ser hasta un ~20 % más alto en las com
 
 El siguiente paso fue averiguar por qué el ticket medio era más alto en las comidas. Las hipótesis eran dos: o se piden más pizzas por pedido, o se piden pizzas de mayor precio.
 
-* **Precio por pizza:** estable a lo largo del día (en torno a 16,5 USD)..
+* **Precio por pizza:** estable a lo largo del día (en torno a 16,5 USD).
 * **Pizzas por pedido:** varía según el turno. En las comidas alcanza 2,69 pizzas por pedido a las 12 h y 2,45 a las 14 h; en el resto del día ronda las 2,2.
 
 Por tanto, la diferencia de ticket se explica por el número de pizzas por pedido, no por el precio de las pizzas.
