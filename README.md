@@ -82,36 +82,46 @@ Pedidos de media por hora; las franjas incluyen la hora de inicio y terminan ant
 
 ### 2. ¿Qué pizzas son estrellas y cuáles sobran en la carta?
 
-> **Limitación:** el dataset no incluye costes, así que el análisis se basa en unidades vendidas e ingresos, no en margen.
+**Limitación:** el dataset no incluye costes, así que el análisis se basa en unidades vendidas e ingresos, no en margen.
 
 #### Pizzas estrella
+
 La venta está muy repartida: en unidades, ninguna pizza llega al 5 % del total.
 
-**Top 5 por unidades:**
-- classic_dlx: 2.453 (4,95 %)
-- bbq_ckn: 2.432 (4,91 %)
-- hawaiian: 2.422 (4,89 %)
-- pepperoni: 2.418 (4,88 %)
-- thai_ckn: 2.371 (4,78 %)
+Top 5 por unidades:
 
-**Por ingresos**, lidera thai_ckn (5,31 %), seguida de bbq_ckn (5,23 %) y cali_ckn (5,01 %), que en unidades queda 6ª.
+* Classic Deluxe: 2.453 (4,95 %)
+* Barbecue Chicken: 2.432 (4,91 %)
+* Hawaiian: 2.422 (4,89 %)
+* Pepperoni: 2.418 (4,88 %)
+* Thai Chicken: 2.371 (4,78 %)
 
-#### Candidatas a salir: mediterraneo y spinach_supr
+Por ingresos, lidera Thai Chicken (5,31 %), seguida de Barbecue Chicken (5,23 %) y California Chicken (5,01 %), que en unidades queda 6.ª.
+
+#### Candidatas a salir: Mediterranean y Spinach Supreme
+
 Las 10 pizzas con menos ventas son las mismas tanto en unidades como en ingresos. Dentro de ese grupo, dos destacan en ambas métricas:
-- **mediterraneo:** 2ª con menos unidades (1,88 %) y 4ª con menos ingresos (1,88 %).
-- **spinach_supr:** 4ª con menos unidades (1,92 %) y 3ª con menos ingresos (1,87 %).
 
-Además, son las **únicas dos pizzas que usan aceitunas kalamata**. Retirarlas juntas permitiría eliminar ese ingrediente de las compras; retirar solo una no generaría ese ahorro.
+* **Mediterranean:** 2.ª con menos unidades (1,88 %) y 4.ª con menos ingresos (1,88 %).
+* **Spinach Supreme:** 4.ª con menos unidades (1,92 %) y 3.ª con menos ingresos (1,87 %).
 
-#### Caso especial: brie_carre
-Es la última en unidades (0,99 %) y en ingresos (1,42 %), pero **solo se ofrece en talla S** y a 23,65 USD, casi el doble que el resto de pizzas S (9,75–12,75 USD). Aun así, **dentro de las pizzas S ocupa el 9º puesto en ventas**, por encima de la media de su talla.
+Además, son las únicas dos pizzas que usan aceitunas kalamata. Retirarlas juntas permitiría eliminar ese ingrediente de las compras; retirar solo una no generaría ese ahorro.
+
+#### Caso especial: Brie Carre
+
+Es la última en unidades (0,99 %) y en ingresos (1,42 %), pero solo se ofrece en talla S y a 23,65 USD, casi el doble que el resto de pizzas S (9,75–12,75 USD). Aun así, dentro de las pizzas S ocupa el 9.º puesto en ventas, por encima de la media de su talla.
 
 **Recomendación:** mantenerla y probar a ofrecerla en talla M durante un periodo para medir el impacto en unidades e ingresos. Si tras 3 meses la Brie Carre (sumando S y M) no alcanza las 80 unidades al mes, el ritmo de venta del grupo más bajo, se retira de la carta.
 
-### Hallazgo del dashboard: el precio dentro de cada grupo
+![Ranking de pizzas por ingresos: candidatas a salir en naranja, Brie Carre en gris oscuro](menu_ranking.png)
 
-En la dispersión, las pizzas forman cuatro grupos según las unidades vendidas. Dentro de cada grupo, las que ingresan menos son las más baratas: Green Garden, Pepperoni Mushroom and Peppers, Big Meat, Pepperoni y Hawaiian tienen un precio medio de 12–14 $, frente a 16–18 $ de sus vecinas. Venden lo mismo, pero cada unidad ingresa menos.
-Excepción: la Big Meat no es barata por carta, sino porque solo se ha vendido en talla S, aunque M y L figuran en la carta. Sin datos de costes no se puede saber si estas pizzas son menos rentables.
+#### Lo que añade la dispersión (Power BI)
+
+En la dispersión, las pizzas forman cuatro grupos según las unidades vendidas. Dentro de cada grupo, las que ingresan menos son las más baratas: Green Garden; Pepperoni, Mushroom, and Peppers; Big Meat; Pepperoni y Hawaiian tienen un precio medio de 12–14 USD, frente a 16–18 USD de sus vecinas. Venden lo mismo, pero cada unidad ingresa menos.
+
+**Excepción:** la Big Meat no es barata por carta, sino porque solo se ha vendido en talla S, aunque M y L figuran en la carta. Sin datos de costes no se puede saber si estas pizzas son menos rentables.
+
+![Dispersión de unidades vendidas frente a ingresos por pizza](menu_dispersion.png)
 
 ### 3. ¿Cuál es el ticket medio y dónde hay margen de upselling?
 
