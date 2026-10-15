@@ -113,24 +113,29 @@ Es la última en unidades (0,99 %) y en ingresos (1,42 %), pero **solo se ofrece
 En la dispersión, las pizzas forman cuatro grupos según las unidades vendidas. Dentro de cada grupo, las que ingresan menos son las más baratas: Green Garden, Pepperoni Mushroom and Peppers, Big Meat, Pepperoni y Hawaiian tienen un precio medio de 12–14 $, frente a 16–18 $ de sus vecinas. Venden lo mismo, pero cada unidad ingresa menos.
 Excepción: la Big Meat no es barata por carta, sino porque solo se ha vendido en talla S, aunque M y L figuran en la carta. Sin datos de costes no se puede saber si estas pizzas son menos rentables.
 
-### Pregunta 3: ¿Cuál es el ticket medio y dónde hay margen de upselling?
+### 3. ¿Cuál es el ticket medio y dónde hay margen de upselling?
 
-El ticket medio global es de **$38,3** y apenas varía entre días: hay una diferencia de alrededor del 3% entre el día con menor ticket medio (domingo, $37,81) y el día con mayor ticket medio (sábado, $39,01).
+El ticket medio global es de $38,3 y apenas varía entre días: hay una diferencia de alrededor del 3 % entre el día con menor ticket medio (domingo, $37,81) y el día con mayor ticket medio (sábado, $39,01).
 
-Durante el día, los datos muestran una diferencia de \~15–20% en el ticket medio, que es mayor durante las comidas ($40–44 entre las 12 y las 14 h) que en el resto del día, incluida la cena (\~$36,5). Esto descartó mi hipótesis inicial de que el ticket medio sería más alto en las cenas, momento en el que familias y amigos se reúnen.
+Durante el día, el ticket medio llega a ser hasta un ~20 % más alto en las comidas ($40–44 de 12:00 a 14:59) que en el resto del día, incluida la cena (~$36,5). Esto descartó mi hipótesis inicial de que el ticket medio sería más alto en las cenas, momento en el que familias y amigos se reúnen.
 
-Nota: se excluyen las 9, 10 y 23 h (37 pedidos en total, menos del 0,2 %), porque con tan pocos pedidos el ticket medio no es representativo.
+**Nota:** se excluyen las 9, 10 y 23 h (37 pedidos en total, menos del 0,2 %), porque con tan pocos pedidos el ticket medio no es representativo.
 
 El siguiente paso fue averiguar por qué el ticket medio era más alto en las comidas. Las hipótesis eran dos: o se piden más pizzas por pedido, o se piden pizzas de mayor precio.
 
-- **Precio por pizza:** estable a lo largo del día (en torno a $16,5).
-- **Pizzas por pedido:** varía según el turno. En las comidas alcanza 2,69 pizzas por pedido a las 12 h y 2,45 a las 14 h; en el resto del día ronda las 2,2.
+* **Precio por pizza:** estable a lo largo del día (en torno a $16,5).
+* **Pizzas por pedido:** varía según el turno. En las comidas alcanza 2,69 pizzas por pedido a las 12 h y 2,45 a las 14 h; en el resto del día ronda las 2,2.
 
-Por tanto, **la diferencia de ticket se explica por el número de pizzas por pedido, no por el precio de las pizzas.**
+Por tanto, la diferencia de ticket se explica por el número de pizzas por pedido, no por el precio de las pizzas.
+
+![Ticket medio, pizzas por pedido y precio por pizza por hora](ticket_medio_hora.png)
 
 **Margen de upselling:** está en las cenas. Para aprovecharlo, habría que centrarse en aumentar el número de pizzas por pedido, ya que el precio por pizza es estable. Pasar de 2,2 a 2,4 pizzas por pedido elevaría el ticket medio de la cena en unos $3 (si se mantiene el precio medio por pizza).
 
 ### 4. ¿Hay estacionalidad que justifique acciones comerciales?
-- **Demanda estable durante el año:** entre 56 pedidos/día (diciembre) y 62,4 (julio), una variación de ≈10 %.
-- **Comparar totales mensuales lleva a error:** por total, septiembre parecía el mes más flojo, pero por sus días de cierre. En media diaria, el más flojo es diciembre.
-- **Implicación:** no se justifican grandes campañas estacionales; la variación relevante está dentro de la semana y del día (ver conclusión 1).
+
+* **Demanda estable durante el año:** entre 56,0 pedidos/día (diciembre) y 62,4 (julio), una variación de ≈10 %.
+* **Comparar totales mensuales lleva a error:** por total, septiembre parecía el mes más flojo, pero por sus días de cierre. En media diaria, el más flojo es diciembre.
+* **Implicación:** no se justifican grandes campañas estacionales; la variación relevante está dentro de la semana y del día (ver conclusión 1).
+
+![Pedidos de media al día por mes](pedidos_por_mes.png)
