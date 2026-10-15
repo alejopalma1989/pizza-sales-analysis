@@ -24,10 +24,61 @@ SQL (BigQuery) · Power BI · GitHub
 ## Conclusiones
 
 ### 1. ¿Cuándo se concentra la demanda y cómo ajustar los turnos de personal?
-- **Días fuertes:** jueves a sábado. Viernes 70,8 pedidos/día, jueves 62,3, sábado 60,7. Domingo, el más flojo (50,5).
-- **Horario operativo real:** 11:00–23:00.
-- **Dos picos diarios:** comida de 12:00 a 14:00 (≈7 pedidos/hora de media) y tarde de 17:00 a 19:00 (≈6,5–6,7). Valle entre las 14:00 y las 16:00 (≈4,1).
-- **Recomendación (criterio operativo):** reforzar plantilla de jueves a sábado en ambos picos, con entrada 30–60 min antes para preparación; dotación mínima el domingo.
+
+* Horario operativo real: 11:00–23:00. Las 9, 10 y 23 h tienen pedidos residuales.
+* Días con más pedidos: viernes (70,8 de media al día), jueves (62,3) y sábado (60,7). El domingo es el más flojo (50,5).
+* Picos: de lunes a viernes hay dos, uno en comidas (12–14, más de 8 pedidos/hora a las 12) y otro por la tarde (17–19). El sábado y el domingo solo hay pico de tarde. El viernes y el sábado ese pico se alarga hasta las 21.
+* Recomendación (detalle por franjas más abajo):
+  * **Refuerzo máximo**: comidas de lunes a viernes, tardes del jueves (17–19) y tardes del viernes y el sábado (17–21).
+  * **Refuerzo**: tardes de domingo a miércoles (17–19).
+  * **Dotación mínima**: sábado y domingo antes de las 12, de domingo a jueves desde las 21 y sábado desde las 22.
+
+#### Lo que añade la matriz día × hora (Power BI)
+
+En SQL se analizaron el día y la hora por separado. Al cruzarlos en una matriz aparece un patrón que las medias no mostraban:
+
+* El pico de comida (12–14) solo se da de lunes a viernes, con más de 8 pedidos/hora a las 12. El sábado y el domingo la comida baja a 4,0–5,0.
+* De lunes a jueves, el pico de tarde se concentra entre las 17 y las 19, y la demanda cae desde las 19. El jueves a las 17 llega a 7,2.
+* El viernes y el sábado, el pico de tarde alcanza su máximo a las 18 (7,7 y 7,5) y se mantiene alto hasta las 21.
+
+![Matriz de pedidos de media por hora, por día de la semana](C:\Users\alejo\Desktop\Data analysis\Proyectos portfolio\Pizza+Place+Sales\pizza_sales/matriz_dia_hora.png)
+
+**Hipótesis:** el pico de comidas de lunes a viernes se explicaría por clientela de oficinas de la zona; la tarde-noche larga de viernes y sábado, por grupos de familia y amigos que se reúnen para socializar.
+
+**Limitación:** no se puede comprobar con este dataset, que no distingue entre sala, recogida y domicilio.
+
+<details>
+<summary><b>Recomendación de turnos por franjas</b></summary>
+
+Pedidos de media por hora; las franjas incluyen la hora de inicio y terminan antes de la hora final (p. ej. 12–14 = de 12:00 a 13:59).
+
+**Refuerzo máximo**
+
+* Comidas de lunes a viernes, 12–14: la demanda más alta de la semana (8,1–8,4 a las 12; 6,9–8,4 a las 13).
+* Viernes y sábado, 17–21: 6,3–7,7. No son los valores más altos, pero el pico dura cuatro horas.
+* Jueves, 17–19: 7,2 y 6,9, al nivel del fin de semana pero más corto.
+
+**Refuerzo**
+
+* Domingo a miércoles, 17–19: 5,8–6,6.
+* Todos los días a las 16: 5,0–5,7, para preparar el pico de tarde.
+* Viernes y sábado a las 21: 5,1–5,4, la cola del pico de fin de semana.
+
+**Plantilla media**
+
+* Lunes a viernes a las 11: 3,6–4,7.
+* Todos los días, 14–16: valle entre picos (3,7–4,5).
+* Sábado y domingo, 12–14: 4,0–5,0. El fin de semana no hay pico de comida.
+* Domingo a jueves, 19–21: 3,6–5,4.
+* Viernes a las 22: 3,6.
+
+**Plantilla mínima**
+
+* Sábado y domingo a las 11: menos de 2.
+* Domingo a jueves desde las 21, y sábado a las 22: menos de 3.
+* Las 9, 10 y 23 h tienen pedidos residuales (menos de 0,25 de media); conviene valorar si compensa abrir en esas horas.
+
+</details>
 
 ### 2. ¿Qué pizzas son estrellas y cuáles sobran en la carta?
 
