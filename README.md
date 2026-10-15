@@ -21,9 +21,7 @@ Las capturas de cada pregunta están en su conclusión. El archivo completo se p
 4 tablas: orders, order_details, pizzas, pizza_types.
 
 ## Estado
-🚧 En curso
-- SQL: preguntas 1, 2 y 4 completadas · pregunta 3 en curso
-- Pendiente: dashboard en Power BI
+✅ Terminado: análisis en SQL (BigQuery) y dashboard en Power BI.
 
 ## Conclusiones
 
