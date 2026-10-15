@@ -117,7 +117,7 @@ Excepción: la Big Meat no es barata por carta, sino porque solo se ha vendido e
 
 El ticket medio global es de $38,3 y apenas varía entre días: hay una diferencia de alrededor del 3 % entre el día con menor ticket medio (domingo, $37,81) y el día con mayor ticket medio (sábado, $39,01).
 
-Durante el día, el ticket medio llega a ser hasta un ~20 % más alto en las comidas ($40–44 de 12:00 a 14:59) que en el resto del día, incluida la cena (~$36,5). Esto descartó mi hipótesis inicial de que el ticket medio sería más alto en las cenas, momento en el que familias y amigos se reúnen.
+Durante el día, el ticket medio llega a ser hasta un ~20 % más alto en las comidas (40–44 USD de 12:00 a 14:59) que en el resto del día, incluida la cena (~36,5 USD). Esto descartó mi hipótesis inicial de que el ticket medio sería más alto en las cenas, momento en el que familias y amigos se reúnen.
 
 **Nota:** se excluyen las 9, 10 y 23 h (37 pedidos en total, menos del 0,2 %), porque con tan pocos pedidos el ticket medio no es representativo.
 
