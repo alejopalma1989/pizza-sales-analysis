@@ -12,6 +12,10 @@ de un General Manager: decisiones de personal, carta, ticket medio y estacionali
 ## Stack
 SQL (BigQuery) · Power BI · GitHub
 
+## Dashboard
+
+Las capturas de cada pregunta están en su conclusión. El archivo completo se puede descargar aquí: [pizza_sales_dashboard.pbix](pizza_sales_dashboard.pbix) (se abre con Power BI Desktop, gratuito para Windows).
+
 ## Datos
 [Maven Analytics – Pizza Place Sales](https://mavenanalytics.io/data-playground/pizza-place-sales)
 4 tablas: orders, order_details, pizzas, pizza_types.
