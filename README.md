@@ -127,7 +127,7 @@ En la dispersión, las pizzas forman cuatro grupos según las unidades vendidas.
 
 ### 3. ¿Cuál es el ticket medio y dónde hay margen de upselling?
 
-El ticket medio global es de $38,3 y apenas varía entre días: hay una diferencia de alrededor del 3 % entre el día con menor ticket medio (domingo, $37,81) y el día con mayor ticket medio (sábado, $39,01).
+El ticket medio global es de 38,3 USD y apenas varía entre días: hay una diferencia de alrededor del 3 % entre el día con menor ticket medio (domingo, 37,81 USD) y el día con mayor ticket medio (sábado, 39,01 USD).
 
 Durante el día, el ticket medio llega a ser hasta un ~20 % más alto en las comidas (40–44 USD de 12:00 a 14:59) que en el resto del día, incluida la cena (~36,5 USD). Esto descartó mi hipótesis inicial de que el ticket medio sería más alto en las cenas, momento en el que familias y amigos se reúnen.
 
@@ -135,14 +135,14 @@ Durante el día, el ticket medio llega a ser hasta un ~20 % más alto en las com
 
 El siguiente paso fue averiguar por qué el ticket medio era más alto en las comidas. Las hipótesis eran dos: o se piden más pizzas por pedido, o se piden pizzas de mayor precio.
 
-* **Precio por pizza:** estable a lo largo del día (en torno a $16,5).
+* **Precio por pizza:** estable a lo largo del día (en torno a 16,5 USD)..
 * **Pizzas por pedido:** varía según el turno. En las comidas alcanza 2,69 pizzas por pedido a las 12 h y 2,45 a las 14 h; en el resto del día ronda las 2,2.
 
 Por tanto, la diferencia de ticket se explica por el número de pizzas por pedido, no por el precio de las pizzas.
 
 ![Ticket medio, pizzas por pedido y precio por pizza por hora](ticket_medio_hora.png)
 
-**Margen de upselling:** está en las cenas. Para aprovecharlo, habría que centrarse en aumentar el número de pizzas por pedido, ya que el precio por pizza es estable. Pasar de 2,2 a 2,4 pizzas por pedido elevaría el ticket medio de la cena en unos $3 (si se mantiene el precio medio por pizza).
+**Margen de upselling:** está en las cenas. Para aprovecharlo, habría que centrarse en aumentar el número de pizzas por pedido, ya que el precio por pizza es estable. Pasar de 2,2 a 2,4 pizzas por pedido elevaría el ticket medio de la cena en unos 3 USD (si se mantiene el precio medio por pizza).
 
 ### 4. ¿Hay estacionalidad que justifique acciones comerciales?
 
